@@ -6,3 +6,4 @@ Enrico Virgilio Rossi
 Come far funzionare i programmi sopra:
 - assicurarsi di avere installato python
 - eseguire i programmi
+- seguire le indicazioni di ogni programma
