@@ -1,5 +1,5 @@
 print("benvenuto nel programma che ordina in ordine alfabetico i nomi dei candidati \
-    e in ordine decrescente il numero di voti di ciascun candidato")
+e in ordine decrescente il numero di voti di ciascun candidato")
 candidati = int(input("inserisci il numero dei candidati "))
 votazioni = [] #all'interno di questa lista ci saranno i voti dei partecipanti con il corrispettivo nome del partecipante tra due parentesi
 candidati_nomi = [] #all'interno di questa lista ci saranno i nomi dei partecipanti con il corrispettivo voto tra due parentesi
