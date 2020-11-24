@@ -3,7 +3,7 @@ candidati = int(input("inserisci il numero dei candidati "))
 votazioni = []
 
 for voti in range(1, candidati+1):
-    x = "inserisci voto candidato numero" + str(voti) + " "
+    x = "inserisci numero voti candidato numero" + str(voti) + " "
     voto = int(input(x))
     votazioni.append(voto)
 
