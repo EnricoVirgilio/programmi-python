@@ -28,8 +28,6 @@ for date in range(1, giorni+1):
         domanda_input = "quanti/e " + str(veicoli2[0]) + " sono passati il giorno numero " + str(date) + " "
         numero_di_veicoli = int(input(domanda_input))
         somma_risultati.append(numero_di_veicoli)
-        if numero_veicolo == len(veicoli)+1:
-            break
         veicoli2 = []
 
 for resto in range(1, len(veicoli)+1):      
