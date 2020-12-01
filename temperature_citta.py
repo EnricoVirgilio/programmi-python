@@ -11,7 +11,7 @@ for città in range(1, num_città + 1):
         min_città = int(input("inserisci temperatura minima città numero" + str(città) + " "))
         max_città = int(input("inserisci temperatura massima città numero" + str(città) + " "))
         if min_città > max_città:
-            print("penso che tu abbia sbagliato a digitare... la temperatura minima non può essere maggiore di quella \
+            print("valore errato, la temperatura minima non può essere maggiore di quella \
 massima. Riprova")
             continue
         else:
