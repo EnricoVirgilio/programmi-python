@@ -20,4 +20,5 @@ print("il numero binario che hai inserito è", numero_binario[::-1])
 print("\nil numero binario trasformato in decimale è, secondo il mio programma, uguale a", numero_decimale)
 print("\nil numero binario trasformato in decimale è, secondo la funzione predefinita di python\
 , uguale a", int(numero_binario[::-1], 2))
-print("i due numeri coincidono")
+if numero_decimale == int(numero_binario[::-1], 2):
+    print("\ni due numeri coincidono")
