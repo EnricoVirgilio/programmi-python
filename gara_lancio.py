@@ -9,10 +9,8 @@ while True:
     nome_e_lanci.append(lancio_candidato)
     lanci.append(lancio_candidato)
     contatore += 1
-    x = int(input("vuoi inserire altri candidati, digita 1 se sì, digita 0 se no "))
-    if x == 0:
+    nuovo_candidato = int(input("vuoi inserire altri candidati, digita 1 per il sì, digita 0 per il no "))
+    if nuovo_candidato == 0:
         break
-    else: 
-        continue
-print("il vincitore della gara è", nome_e_lanci[nome_e_lanci.index(lanci[0]) - 1], "con un lancio\
-di", max(lanci), "metri")
+lanci.sort(reverse = True, key = int)
+print("il vincitore della gara è", nome_e_lanci[nome_e_lanci.index(lanci[0]) - 1], "con un lancio di", lanci[0], "metri")
