@@ -13,7 +13,6 @@ for città in range(1, num_città + 1):
         if min_città > max_città:
             print("valore errato, la temperatura minima non può essere maggiore di quella \
 massima. Riprova")
-            continue
         else:
             break
     if max_città - min_città > val_stab:
