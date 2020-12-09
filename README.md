@@ -5,6 +5,7 @@ Enrico Virgilio Rossi
 2020/11/24
 
 Come far funzionare i programmi sopra:
-- assicurarsi di avere installato python
-- eseguire i programmi
-- seguire le indicazioni di ogni programma
+- Assicurarsi di avere installato python
+- Scaricarli
+- Eseguire i programmi
+- Seguire le indicazioni di ogni programma
