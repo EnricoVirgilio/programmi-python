@@ -10,7 +10,9 @@ def main():
         stato = input("inserisci il nome dello stato di cui vuoi conoscere la capitale ")
         if stato not in nazioni:
             print("Il programma non conosce questa nazione")
-            print("la nazioni che conosco sono:", nazioni)
+            print("la nazioni che conosco sono:")
+            for naz in nazioni:
+                print("-", naz)
             print("Riprova")
             continue
         else:
