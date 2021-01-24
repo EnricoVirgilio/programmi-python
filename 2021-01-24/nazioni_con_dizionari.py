@@ -17,7 +17,6 @@ def main():
             print("la nazioni che conosco sono:")
             for naz in nazioni:
                 print("-", naz)
-            print("Riprova")
             continue
         else:
             capitale = naz_cap[stato]
