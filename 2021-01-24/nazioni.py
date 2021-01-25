@@ -1,5 +1,5 @@
 def main():
-    print("benvenuto nel programma che ti dice la capitale di una nazione a tua scelta.")
+    print("Questo programma dice la capitale di una nazione a tua scelta.")
     print("Il programma, però, non conosce tutte le nazioni")
 
     nazioni = ["Italia", "Francia", "Spagna", "Germania", "Australia", 

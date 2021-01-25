@@ -1,5 +1,5 @@
 def main():
-    print("benvenuto nel programma che ti dice lo stato di una capitale a tua scelta.")
+    print("Questo programma dice lo stato di una capitale a tua scelta.")
     print("Il programma, però, non conosce tutte le capitali")
     naz_cap = {
         "Italia": "Roma",
