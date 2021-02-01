@@ -16,7 +16,8 @@ def persona_aggiungi():
     #
     chiave = len(elenco_iscritti)
     elenco_iscritti[chiave] = persona
-    print("%s %s Iscritto correttamente" % (persona["nome"], persona["cognome"]))
+    print(persona["nome"], persona["cognome"], "iscritto correttamente")
+    #print("%s %s Iscritto correttamente" % (persona["nome"], persona["cognome"]))
     #stampa_persona(persona)
     
 def stampa_elenco_complessivo():
