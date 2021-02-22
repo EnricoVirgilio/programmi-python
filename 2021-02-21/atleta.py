@@ -24,11 +24,11 @@ class Atleta:
         else:
             print("L'atleta", self.name, self.surname, "gioca nel", self.squadra)
         
-    def team(self, team_name):
+    def set_team(self, team_name):
         self.squadra = team_name
         print(self.name, self.surname, "ora gioca nel", team_name)
         
-    def effettua_visita(self):
+    def set_effettua_visita(self):
         if self.visitaMedica == False:
             self.visitaMedica = True
             print("La visita medica è stata effettuata da", self.name, self.surname)
