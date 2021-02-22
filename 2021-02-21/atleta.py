@@ -36,7 +36,7 @@ class Atleta:
             print("La visita medica è già stata effettuata")
             
 atleta1 = Atleta("Pino", "Rossi", 16, 180, 70)
-atleta1.effettua_visita()
+atleta1.set_effettua_visita()
 atleta1.info()
-atleta1.team("Reggiana")
+atleta1.set_team("Reggiana")
 atleta1.info()
