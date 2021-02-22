@@ -38,5 +38,5 @@ class Atleta:
 atleta1 = Atleta("Pino", "Rossi", 16, 180, 70)
 atleta1.effettua_visita()
 atleta1.info()
-atleta1.team("Napoli")
+atleta1.team("Reggiana")
 atleta1.info()
