@@ -102,5 +102,5 @@ while True:
             e.move()
             if e.change_monster():
                 break
-            if close_program():
-                break
+            close_program()
+                
