@@ -103,4 +103,3 @@ while True:
             if e.change_monster():
                 break
             close_program()
-                
